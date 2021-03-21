@@ -11,12 +11,12 @@ public class PrototypeApplication {
 
     @GetMapping("/")
     public String start() {
-        return "Hello World";
+        return "Servizio T1";
     }
 
     @GetMapping("/test")
     public String test() {
-        return "Servizio T1";
+        return "Worker in esecuzione";
     }
 
     public static void main(String[] args) {
