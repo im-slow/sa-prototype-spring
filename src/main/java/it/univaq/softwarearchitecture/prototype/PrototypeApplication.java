@@ -19,6 +19,11 @@ public class PrototypeApplication {
         return "Worker in esecuzione";
     }
 
+    @GetMapping("/t2")
+    public String t2() {
+        return "Servizio T2";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(PrototypeApplication.class, args);
     }
